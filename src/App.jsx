@@ -67,7 +67,7 @@ export default function App() {
         <p>check out some of my recent work</p>
         
           <div id="container">
-             <Projects image={'/travel.png'} title={`A modern and fully responsive travel booking interface showcasing popular destinations and packages.Designed with smooth navigation, appealing visuals, and clear section layouts.`} tech={['HTML5','CSS']} viwe={'https://pugazhenthi731.github.io/project/Travel%20Agency/Home_page.htm'} code={'https://github.com/PUGAZHENTHI731/project/tree/main/Travel%20Agency'}/>
+             <Projects image={'/travel.png'} title={`A modern and fully responsive travel booking interface showcasing popular destinations and packages.Designed with smooth navigation, appealing visuals, and clear section layouts.`} tech={['HTML5','CSS']} viwe={'https://pugazhenthi731.github.io/project/Travel%20Agency/Home_page.html'} code={'https://github.com/PUGAZHENTHI731/project/tree/main/Travel%20Agency'}/>
 
       <Projects image={'./QR.png'} title={`A full-stack project where users enter details, and the system generates a unique QR code stored in a MySQL database. Includes user forms, backend validation.`} tech={['HTML5','CSS','React','API']} viwe={'https://pugazhenthi731.github.io/QR-Code-Generator/'} code={'https://github.com/PUGAZHENTHI731/QR-Code-Generator.git'}/>
 
