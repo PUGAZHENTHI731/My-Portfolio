@@ -48,7 +48,7 @@ export default function App() {
         <button className="btn one" ><a href="#">Contact Me</a></button>
         <button className="btn two"><a href="#">Download Resume</a></button>
         </div>
-        <div id="img"><img src="/men.jpg"/></div>
+        <div id="img"><img src="./men.jpg"/></div>
       </div>
 
       <div id="skills">
