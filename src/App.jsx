@@ -43,6 +43,7 @@ export default function App() {
       <div id="about">
         <div id="box">
           <h1>About Me</h1>
+          <h1 className="title">I'm <span>Pugazhenthi</span></h1>
           <p>
             I'm a frontend developer focused on crafting clean & user-friendly
             experiences.
@@ -56,7 +57,7 @@ export default function App() {
           <p>When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or enjoying a good book.</p>
           <div className="about-btns">
             <button className="btn one"><a href="#contact">Contact Me</a></button>
-            <button className="btn two"><a href="#">Download Resume</a></button>
+            <button className="btn two"><a href="./Portfolio.pdf" target="_blank" rel="noopener noreferrer">Download Resume</a></button>
           </div>
         </div>
         <div id="img">
@@ -124,7 +125,7 @@ export default function App() {
             <div className="contact-info">
               <div className="info-item">
                 <FaEnvelope className="info-icon" />
-                <p>pugazhenthi@example.com</p>
+                <p>pugalpugal731@gmail.com</p>
               </div>
               <div className="info-item">
                 <FaLinkedin className="info-icon" />
@@ -135,7 +136,7 @@ export default function App() {
                 <p>github.com/PUGAZHENTHI731</p>
               </div>
             </div>
-            <form className="contact-form" action="https://formspree.io/f/your-id" method="POST">
+            <form className="contact-form" action="https://formspree.io/f/" method="POST">
               <div className="form-group">
                 <label><FaUser /> Name</label>
                 <input type="text" name="name" placeholder="Your Name" required />
@@ -166,7 +167,7 @@ export default function App() {
           </ul>
           <div id="icons">
             <a href="https://github.com/PUGAZHENTHI731" target="_blank" rel="noopener noreferrer"><FaGithub className="icon" /></a>
-            <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer"><FaWhatsappSquare className="icon" /></a>
+            <a href="https://wa.me/919043843600" target="_blank" rel="noopener noreferrer"><FaWhatsappSquare className="icon" /></a>
             <a href="#" target="_blank" rel="noopener noreferrer"><FaLinkedin className="icon" /></a>
           </div>
         </div>
