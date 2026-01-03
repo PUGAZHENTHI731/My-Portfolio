@@ -1,25 +1,26 @@
 import React from "react";
-import { FaGithub,FaWhatsappSquare , FaLinkedin  } from "react-icons/fa";
+import { FaGithub, FaWhatsappSquare, FaLinkedin } from "react-icons/fa";
 
-export default function Projects({image, title,tech,viwe,code}){
-     return(
-          
-      <div className="project" key={title}>
-              <img src={image} alt="" />
-              <h2>Weather-App</h2>
-              <p className="para">{title}</p>
-              <ul >
-                {tech.map(use=>(
-                    <li>{use}</li>
-                ))}
-              </ul>
-              <div className="buttons">
-                  <div className="btn"><a href={viwe}>Live Demo</a></div>
-                  <div className="code">
-                    <FaGithub/>
-                    <a href={code}>Code</a>
-                  </div>
-                </div>
-            </div>
-     )
+export default function Projects({ image, title, name, tech, viwe, code }) {
+  return (
+
+    <div className="project" key={name}>
+      <img src={image} alt={name} />
+      <h2>{name}</h2>
+      <p className="para">{title}</p>
+      <ul>
+        {tech.map((use, index) => (
+          <li key={index}>{use}</li>
+        ))}
+      </ul>
+      <div className="buttons">
+        <div className="btn">
+          <a href={viwe} target="_blank" rel="noopener noreferrer">Live Demo</a>
+        </div>
+        <a href={code} className="code" target="_blank" rel="noopener noreferrer">
+          <FaGithub /> Code
+        </a>
+      </div>
+    </div>
+  )
 }
