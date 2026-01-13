@@ -23,7 +23,7 @@
 }
 
 body {
-  width: 100%;
+  max-width: 100%;
   overflow-x: hidden;
   background: var(--primary-color);
   color: var(--text-main);
@@ -591,8 +591,7 @@ body {
   .nav-links {
     position: fixed;
     top: 80px;
-    right: 0;
-    display: none;
+    right: -250px;
     width: 250px;
     height: calc(100vh - 80px);
     background: var(--card-bg);
@@ -603,7 +602,7 @@ body {
   }
 
   .nav-links.active {
-    display: block;
+    right: 0px;
   }
 
   .nav-links li {
