@@ -592,7 +592,7 @@ body {
     position: fixed;
     top: 80px;
     right: -100%;
-    width: 0px;
+    width: 250px;
     height: calc(100vh - 80px);
     background: var(--card-bg);
     flex-direction: column;
@@ -603,7 +603,6 @@ body {
 
   .nav-links.active {
     right: 0;
-    width: 250px;
   }
 
   .nav-links li {
